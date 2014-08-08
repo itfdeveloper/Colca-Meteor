@@ -20,7 +20,7 @@ Router.map(function () {
      */
     this.route ('home', {path: '/', template:'home'});
     this.route ('games', {path: '/games', template:'games'});
-    this.route ('games', {path: '/players', template:'players'});
+    this.route ('players', {path: '/players', template:'players'});
 
     //this.route ('dashboard', {path: '/dashboard',template:'Dashboard', loginRequired: true});
 });
